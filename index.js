@@ -29,6 +29,13 @@ const filterEvenNumbers = (arr) => {
 
 console.log(filterEvenNumbers([1, 2, 10, 8, 9, 12]));
 
+// 5. Write a function named sortArrayDescending that takes an array of numbers and returns a new array sorted in descending order.
+
+const sortArrayDescending = (arr) => {
+  return arr.sort((a, b) => b - a);
+};
+console.log(sortArrayDescending([1, 4, 3, 3, 2, 6]));
+
 // 6. Write a function named lowercaseFirstLetter that takes a string and returns the same string with the first letter lowercased.
 
 const lowercaseFirstLetter = (str) => {
