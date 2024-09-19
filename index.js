@@ -1,11 +1,11 @@
-// 1) Write a function named calculateDifference that takes two arguments and returns the difference between the first and second argument.
+// 1. Write a function named calculateDifference that takes two arguments and returns the difference between the first and second argument.
 
 const calculateDifference = (a, b) => {
   return Math.abs(a - b);
 };
 console.log(calculateDifference(-2, 1));
 
-// 2) Write a function named isOdd that takes one argument and returns true if the number is odd, and false if it is not.
+// 2. Write a function named isOdd that takes one argument and returns true if the number is odd, and false if it is not.
 const isOdd = (num) => {
   return num % 2 === 0 ? false : true;
 };
